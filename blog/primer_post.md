@@ -2,6 +2,6 @@
 layout: layout.njk
 title: Mi primer post
 date: 2025-08-12
-permalink: /blog/primer-post/
+categories: ["ejemplo"]
 ---
-Este es el contenido de mi primer artículo en el blog.
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim, lacus sed convallis dignissim, lacus urna suscipit sapien, nec vehicula eros augue id ipsum.</p>
