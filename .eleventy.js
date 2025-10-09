@@ -23,7 +23,15 @@ module.exports = function(eleventyConfig) {
         year: "numeric"
       });
     });
+
+    // Filtro para el año actual
+    eleventyConfig.addFilter("year", function() {
+    return new Date().getFullYear();
+    });
   
+    eleventyConfig.addPassthroughCopy("styles");
+    eleventyConfig.addPassthroughCopy("images"); // si usas imágenes
+      
     return {
       dir: {
         input: ".",
