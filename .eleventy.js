@@ -30,7 +30,8 @@ module.exports = function(eleventyConfig) {
     });
   
     eleventyConfig.addPassthroughCopy("styles");
-    eleventyConfig.addPassthroughCopy("images"); // si usas imágenes
+    eleventyConfig.addPassthroughCopy("images");
+    eleventyConfig.addPassthroughCopy("publicaciones/archivos"); // Copiar PDFs
       
     return {
       dir: {
