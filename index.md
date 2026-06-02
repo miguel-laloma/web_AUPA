@@ -2,16 +2,14 @@
 layout: layout.njk
 title: Inicio
 ---
-# Bienvenido a mi sitio web
-
-<p>Esta es una página de ejemplo usando <strong>Bootstrap 5</strong> con Eleventy.</p>
+# EMPRESA Y DISCAPACIDAD
 
 <section>
-  <h2>¿Qué es Eleventy?</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec ex suscipit, facilisis metus vitae, cursus neque.</p>
+  <h2>Acceso a la prestación ortoprotésica</h2>
+  <p>Trabajamos para garantizar que las personas con discapacidad accedan a productos de máxima calidad, ajustados a sus necesidades reales, como base fundamental para su autonomía.</p>
 </section>
 
 <section>
-  <h2>¿Por qué una web estática?</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at dui at felis varius accumsan.</p>
+  <h2>¿Qué es Empresa y Discapacidad?</h2>
+  <p>Empresa y Discapacidad nace para cerrar la brecha entre el sector empresarial y la discapacidad. Gestionada por AUPA, esta plataforma es un foro de diálogo que une el prisma técnico de la empresa con la vivencia real de la discapacidad, superando las limitaciones de las iniciativas tradicionales.</p>
 </section>

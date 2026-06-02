@@ -5,6 +5,8 @@ title: Blog
 
 <h1>Blog</h1>
 
+<p>Un espacio para repensar la relación entre empresa y discapacidad. Analizamos la actualidad, generamos documentos formativos para no expertos y abrimos nuestras puertas a firmas invitadas. Si eres experto o entidad y quieres aportar tu visión, escríbenos a <a href="mailto:info@empresaydiscapacidad.org">info@empresaydiscapacidad.org</a></p>
+
 {% set postsOrdenados = collections.blogPosts | sort(attribute='data.date') | reverse %}
 
 {% if postsOrdenados.length > 0 %}
