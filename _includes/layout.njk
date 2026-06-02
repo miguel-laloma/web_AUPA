@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-  <header>
+  <header id="header">
     <div class="container">
       <img src="/images/logoAupa.gif" alt="Logo" class="logo">
       <h1 class="site-title">EMPRESA Y DISCAPACIDAD</h1>
@@ -28,5 +28,22 @@
   <footer>
     <p>&copy; {{ "" | year }} EMPRESA Y DISCAPACIDAD</p>
   </footer>
+
+  <script>
+    const header = document.getElementById('header');
+    let lastScrollTop = 0;
+
+    window.addEventListener('scroll', function() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+      if (scrollTop > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+      
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    });
+  </script>
 </body>
 </html>
