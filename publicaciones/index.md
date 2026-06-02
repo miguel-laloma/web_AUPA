@@ -26,7 +26,7 @@ Propuesta para ajustar el trabajo en RSE enfocado en discapacidad al cumplimient
 
 Evaluación del impacto del empleo protegido en España y proyección de las posibilidades de esta vía de integración laboral como respuesta a la situación de las personas con discapacidad en el mercado laboral.
 
-[Descargar PDF](/publicaciones/archivos/EMPLEO%20PROTEGIDO%20EN%20ESPAÑA.%20Miguel%20Laloma.pdf)
+[Descargar PDF](/publicaciones/archivos/Empleo-Protegido-Espana.pdf)
 
 ---
 
@@ -39,7 +39,7 @@ Evaluación del impacto del empleo protegido en España y proyección de las pos
 
 Análisis del sector ortoprotésico y de los diferentes actores del mismo: ortopedas, usuarios, administración pública, etc. Este análisis ha sido el primero realizado en el sector y pone sobre la mesa los principales problemas de la prestación ortoprotésica en España.
 
-[Descargar PDF](/publicaciones/archivos/AYUDAS%20TECNICAS%20Y%20DISCAPACIDAD.%20Miguel%20Laloma.pdf)
+[Descargar PDF](/publicaciones/archivos/Ayudas-Tecnicas-Discapacidad.pdf)
 
 ---
 
@@ -70,4 +70,4 @@ Evaluación de la situación de las mujeres con discapacidad respecto de la inte
 
 Ganador del I Premio "Jóvenes Talentos" convocado por la Asociación Española de Dirección de Personal (AEDIPE) por la investigación "Mujer discapacitada" (Córdoba 2003).
 
-[Descargar PDF](/publicaciones/archivos/Capítulo%20MUJER%2C%20DISCAPACIDAD%20Y%20EMPLEO.%20Miguel%20Laloma.pdf)
+[Descargar PDF](/publicaciones/archivos/Mujer-Discapacidad-Empleo.pdf)

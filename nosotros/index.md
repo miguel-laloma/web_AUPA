@@ -12,7 +12,7 @@ Nuestro compromiso es acompañar a las personas con discapacidad en la mejora de
 
 ## En AUPA trabajamos por y para el usuario
 
-<a href="/publicaciones/archivos/2026%20MEMORIA%20DE%20ACTIVIDADES%20AUPA.pdf" class="btn btn-primary">Conoce nuestra Memoria de Actividad (PDF)</a>
+<a href="/publicaciones/archivos/Memoria-Actividades-AUPA.pdf" class="btn btn-primary">Conoce nuestra Memoria de Actividad (PDF)</a>
 
 ## Líneas de actuación
 
