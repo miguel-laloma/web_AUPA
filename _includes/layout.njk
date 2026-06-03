@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ title }} | EMPRESA Y DISCAPACIDAD</title>
-  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="{{ '/styles/style.css' | relative }}">
 </head>
 <body>
   <header id="header">
     <div class="container">
-      <img src="/images/logoAupa.gif" alt="Logo" class="logo">
+      <img src="{{ '/images/logoAupa.gif' | relative }}" alt="Logo" class="logo">
       <h1 class="site-title">EMPRESA Y DISCAPACIDAD</h1>
       <nav>
         <ul class="nav">
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/nosotros/">Nosotros</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/publicaciones/">Publicaciones</a></li>
+          <li><a href="{{ '/' | relative }}">Inicio</a></li>
+          <li><a href="{{ '/nosotros/' | relative }}">Nosotros</a></li>
+          <li><a href="{{ '/blog/' | relative }}">Blog</a></li>
+          <li><a href="{{ '/publicaciones/' | relative }}">Publicaciones</a></li>
         </ul>
       </nav>
     </div>

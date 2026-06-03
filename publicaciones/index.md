@@ -13,7 +13,7 @@ title: Publicaciones
 
 Propuesta para ajustar el trabajo en RSE enfocado en discapacidad al cumplimiento de los Objetivos de Desarrollo Sostenible y a la medida de su contribución a estos objetivos.
 
-[Descargar PDF](/publicaciones/archivos/ODiScapacidad.pdf)
+[Descargar PDF]({{ '/publicaciones/archivos/ODiScapacidad.pdf' | relative }})
 
 ---
 
@@ -26,7 +26,7 @@ Propuesta para ajustar el trabajo en RSE enfocado en discapacidad al cumplimient
 
 Evaluación del impacto del empleo protegido en España y proyección de las posibilidades de esta vía de integración laboral como respuesta a la situación de las personas con discapacidad en el mercado laboral.
 
-[Descargar PDF](/publicaciones/archivos/Empleo-Protegido-Espana.pdf)
+[Descargar PDF]({{ '/publicaciones/archivos/Empleo-Protegido-Espana.pdf' | relative }})
 
 ---
 
@@ -39,7 +39,7 @@ Evaluación del impacto del empleo protegido en España y proyección de las pos
 
 Análisis del sector ortoprotésico y de los diferentes actores del mismo: ortopedas, usuarios, administración pública, etc. Este análisis ha sido el primero realizado en el sector y pone sobre la mesa los principales problemas de la prestación ortoprotésica en España.
 
-[Descargar PDF](/publicaciones/archivos/Ayudas-Tecnicas-Discapacidad.pdf)
+[Descargar PDF]({{ '/publicaciones/archivos/Ayudas-Tecnicas-Discapacidad.pdf' | relative }})
 
 ---
 
@@ -54,7 +54,7 @@ Análisis de diferentes proyectos de Responsabilidad Social Empresarial que, ade
 
 Ganador del I Premio MSD para la Investigación en el campo de la Ética Empresarial, premio organizado en colaboración con FORETICA. El Jurado, presidido por D. Federico Mayor Zaragoza, concedió el premio por unanimidad (Barcelona 2002).
 
-[Descargar PDF](/publicaciones/archivos/Gestion-Etica-Discapacidad.pdf)
+[Descargar PDF]({{ '/publicaciones/archivos/Gestion-Etica-Discapacidad.pdf' | relative }})
 
 ---
 
@@ -70,4 +70,4 @@ Evaluación de la situación de las mujeres con discapacidad respecto de la inte
 
 Ganador del I Premio "Jóvenes Talentos" convocado por la Asociación Española de Dirección de Personal (AEDIPE) por la investigación "Mujer discapacitada" (Córdoba 2003).
 
-[Descargar PDF](/publicaciones/archivos/Mujer-Discapacidad-Empleo.pdf)
+[Descargar PDF]({{ '/publicaciones/archivos/Mujer-Discapacidad-Empleo.pdf' | relative }})

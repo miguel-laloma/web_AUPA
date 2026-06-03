@@ -28,6 +28,27 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("year", function() {
     return new Date().getFullYear();
     });
+
+    // Rutas relativas al documento actual (compatible con GitHub Pages y dominio propio)
+    eleventyConfig.addFilter("relative", function(url) {
+      if (!url || typeof url !== "string" || !url.startsWith("/")) return url;
+
+      let pagePath = this.page?.url || "/";
+      if (pagePath.endsWith("index.html")) {
+        pagePath = pagePath.slice(0, -"index.html".length);
+      }
+      if (!pagePath.endsWith("/")) {
+        pagePath += "/";
+      }
+
+      const depth = pagePath.split("/").filter(Boolean).length;
+      const prefix = depth === 0 ? "." : Array(depth).fill("..").join("/");
+
+      if (url === "/") {
+        return depth === 0 ? "./" : prefix + "/";
+      }
+      return prefix + url;
+    });
   
     eleventyConfig.addPassthroughCopy("styles");
     eleventyConfig.addPassthroughCopy("images");
