@@ -18,15 +18,15 @@ header {
   background: linear-gradient(135deg, #004080 0%, #003366 100%);
   color: white;
   padding: 1rem;
+  min-height: 82px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   z-index: 100;
-  transition: padding 0.3s ease, box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
 }
 
 header.scrolled {
-  padding: 0.5rem 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
@@ -40,14 +40,14 @@ header .container {
 }
 
 .logo {
-  height: 50px;
+  height: 60px;
   width: auto;
   flex-shrink: 0;
   transition: height 0.3s ease;
 }
 
 header.scrolled .logo {
-  height: 40px;
+  height: 60px;
 }
 
 .site-title {
@@ -59,11 +59,11 @@ header.scrolled .logo {
   flex: 1;
   text-align: center;
   white-space: nowrap;
-  transition: font-size 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 header.scrolled .site-title {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 /* Navigation */
@@ -92,7 +92,7 @@ nav {
 }
 
 header.scrolled .nav a {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
 }
 
 .nav a::after {

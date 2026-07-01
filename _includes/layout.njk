@@ -14,7 +14,7 @@
         <ul class="nav">
           <li><a href="{{ '/' | relative }}">Inicio</a></li>
           <li><a href="{{ '/nosotros/' | relative }}">Nosotros</a></li>
-          <li><a href="{{ '/blog/' | relative }}">Blog</a></li>
+          <li><a href="{{ '/blog/' | relative }}">Memoria de Actividad</a></li>
           <li><a href="{{ '/publicaciones/' | relative }}">Publicaciones</a></li>
         </ul>
       </nav>
@@ -32,18 +32,17 @@
 
   <script>
     const header = document.getElementById('header');
-    let lastScrollTop = 0;
+    let headerScrolled = false;
 
     window.addEventListener('scroll', function() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      
-      if (scrollTop > 50) {
+      if (!headerScrolled && scrollTop > 60) {
         header.classList.add('scrolled');
-      } else {
+        headerScrolled = true;
+      } else if (headerScrolled && scrollTop < 40) {
         header.classList.remove('scrolled');
+        headerScrolled = false;
       }
-      
-      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
     });
   </script>
 </body>
