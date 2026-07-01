@@ -52,7 +52,8 @@ module.exports = function(eleventyConfig) {
   
     eleventyConfig.addPassthroughCopy("styles");
     eleventyConfig.addPassthroughCopy("images");
-    eleventyConfig.addPassthroughCopy("publicaciones/archivos"); // Copiar PDFs
+    eleventyConfig.addPassthroughCopy("publicaciones/archivos");
+    eleventyConfig.addPassthroughCopy("publicaciones/portadas");
     eleventyConfig.addPassthroughCopy(".nojekyll"); // Copiar .nojekyll para GitHub Pages
       
     return {
