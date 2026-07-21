@@ -23,9 +23,16 @@ title: Análisis y Perspectiva
 
 {% set postsOrdenados = collections.blogPosts | sort(attribute='data.date') | reverse %}
 
-{% if postsOrdenados.length > 0 %}
+{% set postsFiltrados = [] %}
+{% for post in postsOrdenados %}
+  {% if post.data.title != 'Mi primer post' %}
+    {% set postsFiltrados = postsFiltrados.concat([post]) %}
+  {% endif %}
+{% endfor %}
+
+{% if postsFiltrados.length > 0 %}
   <ul>
-    {% for post in postsOrdenados %}
+    {% for post in postsFiltrados %}
       <li>
         <a href="{{ post.url | relative }}">{{ post.data.title }}</a> - {{ post.data.date | simpleDate }}
         {% if post.data.categories %}

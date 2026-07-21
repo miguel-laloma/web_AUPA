@@ -142,6 +142,29 @@ h1 {
   border-bottom: 2px solid #e0e8f0;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-logo {
+  flex: 0 0 220px;
+  text-align: center;
+}
+
+.hero-logo img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+}
+
+.hero-content {
+  flex: 1;
+}
+
 h2 {
   color: #003366;
   font-size: 1.8rem;
@@ -283,6 +306,13 @@ footer {
   font-weight: 500;
 }
 
+footer p {
+  font-size: 0.88rem;
+  color: #555;
+  margin: 0.4rem auto;
+  max-width: 940px;
+}
+
 footer .cookies-notice {
   font-size: 0.85rem;
   color: #777;
@@ -290,6 +320,16 @@ footer .cookies-notice {
   max-width: 720px;
   margin: 0 auto 1rem;
   line-height: 1.5;
+}
+
+footer .legal-notice,
+footer .contact-notice {
+  font-size: 0.88rem;
+  color: #555;
+  font-weight: 400;
+  max-width: 940px;
+  margin: 0 auto 0.6rem;
+  line-height: 1.6;
 }
 
 footer .legal-notice {

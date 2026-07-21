@@ -2,14 +2,16 @@
 layout: layout.njk
 title: Inicio
 ---
-<div style="text-align: center; margin-bottom: 2rem;">
-  <img src="{{ '/images/logoAUPA.gif' | relative }}" alt="AUPA Logo" style="max-width: 200px; height: auto; margin-bottom: 1rem;">
+<div class="hero">
+  <div class="hero-logo">
+    <img src="{{ '/images/logoAUPA.gif' | relative }}" alt="AUPA Logo">
+  </div>
+  <div class="hero-content">
+    <h1>EMPRESA Y DISCAPACIDAD</h1>
+    <p>Notas e ideas sobre RSE y la gestión de la discapacidad en la empresa</p>
+    <p class="subtitle">Proyecto oficial de la Asociación de Usuarios de Prótesis y Ayudas Técnicas (AUPA)</p>
+  </div>
 </div>
-
-# EMPRESA Y DISCAPACIDAD
-Notas e ideas sobre RSE y la gestión de la discapacidad en la empresa
-
-<p class="subtitle">Proyecto oficial de la Asociación de Usuarios de Prótesis y Ayudas Técnicas (AUPA)</p>
 
 Empresa y Discapacidad surge como el proyecto oficial de la **Asociación de Usuarios de Prótesis y Ayudas Técnicas (AUPA)** para avanzar en la integración de las personas con discapacidad en el mundo empresarial. El artículo 4.7 de nuestros estatutos fundacionales establece de forma explícita el "Desarrollo del proyecto Empresa y Discapacidad para facilitar el empleo de las personas con discapacidad" como una de las actividades fundamentales de nuestra organización.
 

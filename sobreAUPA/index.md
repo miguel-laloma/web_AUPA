@@ -15,8 +15,6 @@ Conforme al Artículo 3 de nuestros Estatutos, nuestros fines sociales principal
 
 - **Facilitar la inserción laboral**, la creación de empleo y la formación profesional de personas con discapacidad orientada a su incorporación en el mercado de trabajo.
 
-[Descargar Memoria de Actividades (PDF)]({{ '/publicaciones/archivos/Memoria-Actividades-AUPA.pdf' | relative }})
-
 ## Datos de Contacto e Identificación
 
 - **Denominación Social:** Asociación de Usuarios de Prótesis y Ayudas Técnicas (AUPA)
@@ -49,5 +47,7 @@ Constituyen tareas propias de la Asociación todas las que conduzcan al logro de
 ---
 
 ## Enlaces Importantes
+
+[Descargar Memoria de Actividades (PDF)]({{ '/publicaciones/archivos/Memoria-Actividades-AUPA.pdf' | relative }})
 
 [Descargar Estatutos (PDF)]({{ '/publicaciones/archivos/Estatutos-AUPA.pdf' | relative }})
