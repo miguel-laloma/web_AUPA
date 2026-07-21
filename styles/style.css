@@ -292,6 +292,15 @@ footer .cookies-notice {
   line-height: 1.5;
 }
 
+footer .legal-notice {
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: 400;
+  max-width: 900px;
+  margin: 0 auto 1rem;
+  line-height: 1.6;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   header .container {
