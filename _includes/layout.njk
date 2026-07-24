@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }} | EMPRESA Y DISCAPACIDAD</title>
   <link rel="stylesheet" href="{{ '/styles/style.css' | relative }}">
   <link rel="icon" type="image/gif" href="{{ '/images/logoAUPA.gif' | relative }}">
@@ -11,7 +12,10 @@
     <div class="container">
       <img src="{{ '/images/logoAUPA.gif' | relative }}" alt="AUPA — Asociación de Usuarios de Prótesis y Ayudas Técnicas" class="logo">
       <h1 class="site-title">EMPRESA Y DISCAPACIDAD</h1>
-      <nav>
+      <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú de navegación">
+        <span aria-hidden="true">☰</span>
+      </button>
+      <nav id="nav-menu">
         <ul class="nav">
           <li><a href="{{ '/' | relative }}">Inicio</a></li>
           <li><a href="{{ '/nosotros/' | relative }}">Nosotros</a></li>
@@ -47,6 +51,53 @@
         header.classList.remove('scrolled');
         headerScrolled = false;
       }
+    });
+
+    // Hamburger menu functionality
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+    const navLinks = document.querySelectorAll('#nav-menu a');
+    const mobileMenu = window.matchMedia('(max-width: 768px)');
+
+    function toggleMenu() {
+      const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+      setMenuState(!isExpanded);
+    }
+
+    function setMenuState(isOpen) {
+      hamburger.setAttribute('aria-expanded', String(isOpen));
+      hamburger.setAttribute('aria-label', isOpen ? 'Cerrar menú de navegación' : 'Abrir menú de navegación');
+      hamburger.querySelector('span').textContent = isOpen ? '✕' : '☰';
+      navMenu.classList.toggle('open', isOpen);
+    }
+
+    function closeMenu() {
+      setMenuState(false);
+    }
+
+    hamburger.addEventListener('click', toggleMenu);
+
+    // Close menu when clicking on a link
+    navLinks.forEach(link => {
+      link.addEventListener('click', closeMenu);
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+      if (mobileMenu.matches && !navMenu.contains(event.target) && !hamburger.contains(event.target)) {
+        closeMenu();
+      }
+    });
+
+    // Close menu with ESC key
+    document.addEventListener('keydown', function(event) {
+      if (mobileMenu.matches && event.key === 'Escape' && navMenu.classList.contains('open')) {
+        closeMenu();
+      }
+    });
+
+    mobileMenu.addEventListener('change', function(event) {
+      if (!event.matches) closeMenu();
     });
   </script>
 </body>
