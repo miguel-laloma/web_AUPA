@@ -357,6 +357,8 @@ footer .legal-notice {
   main {
     padding: 1.5rem;
     margin: 1rem;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   h1 {
@@ -382,6 +384,11 @@ footer .legal-notice {
 
   .publicacion-portada {
     width: 140px;
+  }
+
+  footer p {
+    max-width: 100%;
+    padding: 0 1rem;
   }
 }
   
